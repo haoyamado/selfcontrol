@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;VKRF&gt; 3D</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="/styles/vkrfrstyles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/styles/reset.min.css" />
+    <link rel="stylesheet" href="/styles/stylemain.css" />
+    <link rel="stylesheet" href="/styles/navigation.css" />
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <a href="#" class="brand">VKRF</a>
+        <nav class="nav">
+          <button class="nav__toggle" aria-expanded="false" type="button">
+            menu
+          </button>
+          <ul class="nav__wrapper">
+            <li class="nav__item"><a href="mainpage.html">Главная</a></li>
+            <li class="nav__item"><a href="vkrfmain.html">Общий вид</a></li>
+            <li class="nav__item"><a href="https://bitrix24.nevatom.ru/company/personal/user/1310/">Поддержка</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="/models/vkrf razrez.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="/images/vkrfrposter.webp" shadow-intensity="1" environment-image="legacy" exposure="0.21">
+      <button class="Hotspot" slot="hotspot-1" data-position="-88.80449967483423m 132.05532283914735m -27.602036375921216m" data-normal="-0.9479271440684484m 0m -0.3184872517672183m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Электродвигатель</div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="-93.9269452073708m -105.65677547269951m -110.62489803680319m" data-normal="-0.2402519044513083m 0.0002356981058874657m -0.9707105474104639m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Раб.колесо</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="-0.05347505816666853m -248.62313564404917m 138.42910131443136m" data-normal="0m -0.1109840239229384m -0.9938221905521495m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Конфузор</div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+    </model-viewer>  
+    <script src="/models/vkrfrscript.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </body>
+</html>
