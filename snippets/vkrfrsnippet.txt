@@ -1,0 +1,12 @@
+<model-viewer src="vkrf razrez.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="legacy" exposure="0.21">
+    <button class="Hotspot" slot="hotspot-1" data-position="-88.80449967483423m 132.05532283914735m -27.602036375921216m" data-normal="-0.9479271440684484m 0m -0.3184872517672183m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Электродвигатель</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-93.9269452073708m -105.65677547269951m -110.62489803680319m" data-normal="-0.2402519044513083m 0.0002356981058874657m -0.9707105474104639m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Раб.колесо</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.05347505816666853m -248.62313564404917m 138.42910131443136m" data-normal="0m -0.1109840239229384m -0.9938221905521495m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Конфузор</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>

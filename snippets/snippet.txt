@@ -1,0 +1,24 @@
+<model-viewer src="ImageToStl.com_cp-600-e-l (общий ).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="legacy" exposure="0.21">
+    <button class="Hotspot" slot="hotspot-2" data-position="-238.8739679344494m 161.34962240459265m -585.5887595904464m" data-normal="2.9188633192146118e-9m 0.9999724700734189m 0.007420181619435431m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Секция 1</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="99.19103307506384m 156.21649248973472m 106.17148524853314m" data-normal="0m 0.9999724700121578m 0.007420189875232341m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Секция 2</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="42.3160932957403m 152.66723559142156m 584.4819187307648m" data-normal="0m 0.9999724700679633m 0.007420182354648153m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Секция 3</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="662.9000244140625m -85.31609760583501m -46.69421946979128m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Щит управления</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="264.8961346580604m -28.915324565062292m 566.8010396892932m" data-normal="-5.17522402926216e-7m -0.0074207306719641306m 0.9999724659989526m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Вентилятор</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="311.57124972417614m -50.08098949268833m -553.1662467803098m" data-normal="0.8240932769142764m -0.5664467163006692m -0.0028962970978393303m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Вентилятор</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
